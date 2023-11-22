@@ -1,0 +1,104 @@
+.onlineBz-container {
+    background-color: rgb(3, 0, 26);
+    color:aliceblue;
+    height: 60rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.onlineBz-container-1 {
+    /* background-color: rgb(35, 95, 95); */
+    /* overflow: hidden; */
+    height: 36rem;
+    width: 40rem;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.onlineBz-container-1-btn {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #5c81e6 71.54%,
+        #0e1d72 100%
+      );
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+.onlineBz-container-1-btn:hover {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #1c3a8b 71.54%,
+        rgb(30, 36, 122) 100%
+      );
+}
+.onlineBz-container-1-btn:active {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #1a1736 71.54%,
+        #0e072c 100%
+      );
+}
+
+
+
+
+
+.onlineBz-container-2 {
+    /* background-color: rgb(35, 95, 95); */
+    /* overflow: hidden; */
+    height: 36rem;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10rem;
+    margin-left: -4rem;
+}
+.onlineBz-container-2-btn {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #5c81e6 71.54%,
+        #0e1d72 100%
+      );
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+.onlineBz-container-2-btn:hover {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #1c3a8b 71.54%,
+        rgb(30, 36, 122) 100%
+      );
+}
+.onlineBz-container-2-btn:active {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #1a1736 71.54%,
+        #0e072c 100%
+      );
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .onlineBz-container {
+        display: flex;
+        flex-direction: column;
+        height: 90rem;
+    }
+    .onlineBz-container-1{
+        margin-bottom: 12rem;
+    }
+    .onlineBz-container-2-img {
+        margin-bottom: 20rem;
+    }
+}

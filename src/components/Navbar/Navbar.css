@@ -1,0 +1,94 @@
+.Navbar {
+    /* background-color: rgb(26, 26, 26); */
+    padding-top: 3rem;
+    background-color: rgb(3, 0, 26);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Navbar-logo {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+}
+.Navbar-logo-img {
+    /* background: url('../../assets/logo-48.png'); */
+    /* background-image: url('../../assets/logo-48.png'); */
+    width: 3rem;
+    height: 3rem;
+}
+.Navbar-logo-text {
+    color: rgb(158, 172, 255);
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+.Navbar-list {
+    margin-top: 0.5rem;
+    width: 30rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: antiquewhite; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Navbar-list > li {
+    cursor: pointer;
+    transition: all 3s;
+}
+
+.Navbar-list > li:hover {
+    text-decoration: underline;
+}
+
+.Navbar-menu-icon {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+    .Navbar-list {
+        display: none;
+    }
+    .Navbar-menu-icon {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    .Navbar-list-mini {
+        position: absolute;
+        background-image: linear-gradient(rgba(103, 144, 255, 0.815),rgba(17, 17, 17, 0.664));
+        border-radius: 1rem;
+        width: fit-content;
+        height: fit-content;
+        list-style-type: none;
+        padding: 2rem;
+        margin-left: -5rem;
+        font-size: 1.5rem;
+        font-weight: 200;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .Navbar-list-mini > li {
+        padding: 0.3rem;
+        cursor: pointer;
+    }
+    .Navbar-list-mini > li:hover {
+        text-decoration: underline;
+    }
+
+}
+

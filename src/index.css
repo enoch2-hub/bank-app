@@ -1,0 +1,27 @@
+* {
+  margin: 0 auto;
+  padding: none;
+  box-sizing: border-box;
+}
+
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #cfbef5 17.23%,
+    #df9df0 42.04%,
+    #a47deb 55.12%,
+    #915ce6 71.54%,
+    #8433cf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.scale-up-top {
+	-webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
