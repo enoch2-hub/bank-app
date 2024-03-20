@@ -87,3 +87,11 @@
         gap: 5rem;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    .comments-text-1 {
+        font-size: 1.5rem;
+    }
+    
+}

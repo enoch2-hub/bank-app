@@ -148,3 +148,47 @@
         margin-bottom: 20rem;
     }
 }
+
+
+@media screen and (max-width:550px) {
+    .Hero-robot-gradientround {
+        height: 25rem;
+        width: 18rem;
+    }
+    .Hero-robot-gradientround > img {
+        margin-top: 4rem;
+        width: 18rem;
+        height: 18rem;
+    }
+    
+    .Hero-discount-text1 {
+        font-size: 1.5rem;
+    }
+    .Hero-discount-text2 {
+        font-size: 1rem;
+    }
+    .Hero-discount {
+        font-size: 1rem;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .Hero-discount-gradientround  {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Hero-discount {
+        width: 22rem;
+    }
+    
+}
+
+
+
+
+
+
+
