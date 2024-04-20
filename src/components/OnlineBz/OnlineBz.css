@@ -128,20 +128,17 @@
     .onlineBz-container-1 {
         font-size: 1.5rem;
         width: 25rem;
+        padding: 2rem;
+        background-color: rebeccapurple;
     }
-    .onlineBz-container-1 h1, .onlineBz-container-1 p{
-        /* margin-top: -20rem; */
+    .onlineBz-container-1 > h1, .onlineBz-container-1 > p{
+        margin-top: -20rem;
     }
     .onlineBz-container{
-        /* margin-bottom: -30rem; */
         height: 90rem;
     }
-
     .onlineBz-container-2 {
         font-size: 1rem;
-    }
-    .onlineBz-container-1-btn {
-        margin-top: 3rem;
     }
 }
 

@@ -19,8 +19,8 @@ function App() {
       <Navbar />
       <Hero />
       <Stats />
-      {/* <Business/> */}
-      {/* <OnlineBz/> */}
+      <Business/>
+      <OnlineBz/>
       <Comments />
       <CTA />
       <Footer />

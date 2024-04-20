@@ -1,6 +1,8 @@
 .comments-container {
+    /* margin-top: 4rem; */
     background-color: rgb(3, 0, 26);
     padding: 1rem;
+    padding-top: 2rem;
 }
 
 .comments-container-text {
