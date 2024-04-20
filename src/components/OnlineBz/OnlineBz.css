@@ -1,158 +1,100 @@
+/* Common styles */
 .onlineBz-container {
     background-color: rgb(3, 0, 26);
-    color:aliceblue;
-    height: 60rem;
+    color: aliceblue;
     display: flex;
     justify-content: space-between;
-}
-
-.onlineBz-container-1 {
-    /* background-color: rgb(35, 95, 95); */
-    /* overflow: hidden; */
-    height: 36rem;
-    width: 40rem;
-    font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.onlineBz-container-1-btn {
-    background: radial-gradient(
-        64.18% 64.18% at 71.16% 35.69%,
-        #5c81e6 71.54%,
-        #0e1d72 100%
-      );
-    padding: 1rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    margin-top: 5rem;
-}
-.onlineBz-container-1-btn:hover {
-    background: radial-gradient(
-        64.18% 64.18% at 71.16% 35.69%,
-        #1c3a8b 71.54%,
-        rgb(30, 36, 122) 100%
-      );
-}
-.onlineBz-container-1-btn:active {
-    background: radial-gradient(
-        64.18% 64.18% at 71.16% 35.69%,
-        #1a1736 71.54%,
-        #0e072c 100%
-      );
-}
-
-
-
-
-
-.onlineBz-container-2 {
-    /* background-color: rgb(35, 95, 95); */
-    /* overflow: hidden; */
-    height: 36rem;
+    padding: 2rem;
+  }
+  
+  .onlineBz-container h1,
+  .onlineBz-container p {
+    margin: 0;
+  }
+  
+  /* Styles for container 1 */
+  .onlineBz-container-1 {
+    width: 40%;
     font-size: 1.5rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10rem;
-    margin-left: -4rem;
-}
-.onlineBz-container-2-btn {
-    background: radial-gradient(
-        64.18% 64.18% at 71.16% 35.69%,
-        #5c81e6 71.54%,
-        #0e1d72 100%
-      );
-    padding: 1rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    margin-top: 5rem;
-}
-.onlineBz-container-2-btn:hover {
-    background: radial-gradient(
-        64.18% 64.18% at 71.16% 35.69%,
-        #1c3a8b 71.54%,
-        rgb(30, 36, 122) 100%
-      );
-}
-.onlineBz-container-2-btn:active {
-    background: radial-gradient(
-        64.18% 64.18% at 71.16% 35.69%,
-        #1a1736 71.54%,
-        #0e072c 100%
-      );
-}
-
-
-
-@media screen and (max-width: 1500px) {
-    .onlineBz-container-2-img img{
-        width: 45rem;
-        height: 32rem;
-    }
-    
-}
-@media screen and (max-width: 1200px) {
-    .onlineBz-container-2-img img{
-        width: 30rem;
-        height: 20rem;
-    }
-    
-}
-
-@media screen and (max-width: 1024px) {
-    .onlineBz-container {
-        display: flex;
-        flex-direction: column;
-        height: 90rem;
-    }
-    .onlineBz-container-1{
-        margin-bottom: 12rem;
-    }
-    .onlineBz-container-2-img {
-        margin-bottom: 20rem;
-    }
-}
-
-
-
-@media screen and (max-width: 800px) {
-    .onlineBz-container-1-img img{
-        width: 20rem;
-        height: 20rem;
-    }
+  }
+  
+  @media screen and (max-width: 800px) {
     .onlineBz-container-1 {
-        font-size: 1.5rem;
-        width: 25rem;
-        padding: 2rem;
-        background-color: rebeccapurple;
+      width: 100%;
+      font-size: 1rem;
     }
-    .onlineBz-container-1 > h1, .onlineBz-container-1 > p{
-        margin-top: -20rem;
-    }
-    .onlineBz-container{
-        height: 90rem;
-    }
+  }
+  
+  /* Styles for container 2 */
+  .onlineBz-container-2 {
+    width: 40%;
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 800px) {
     .onlineBz-container-2 {
-        font-size: 1rem;
+      width: 100%;
+      font-size: 1rem;
     }
+  }
+  
+  /* Styles for images */
+  .onlineBz-container-1-img img,
+  .onlineBz-container-2-img img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .onlineBz-container-1-img img,
+    .onlineBz-container-2-img img {
+      height: auto;
+    }
+  }
+  
+
+
+
+
+
+  /* Button styles */
+.onlineBz-container-1-btn,
+.onlineBz-container-2-btn {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #5c81e6 71.54%,
+    #0e1d72 100%
+  );
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-top: 1rem; /* Adjust as needed */
+  color: white;
+  text-align: center;
 }
 
+.onlineBz-container-1-btn:hover,
+.onlineBz-container-2-btn:hover {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #1c3a8b 71.54%,
+    rgb(30, 36, 122) 100%
+  );
+}
 
+.onlineBz-container-1-btn:active,
+.onlineBz-container-2-btn:active {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #1a1736 71.54%,
+    #0e072c 100%
+  );
+}
 
-@media screen and (max-width: 500px) {
-    .onlineBz-container-1 {
-        font-size: 1rem;
-        width: 20rem;
-    }
-    
-    .onlineBz-container-2-img img{
-        width: 20rem;
-        height: 20rem;
-    }
-    
+/* Adjustments for small screens */
+@media screen and (max-width: 800px) {
+  .onlineBz-container-1-btn,
+  .onlineBz-container-2-btn {
+    padding: 0.8rem 1.6rem;
+    margin-top: 0.5rem; /* Adjust as needed */
+  }
 }
