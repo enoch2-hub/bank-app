@@ -67,6 +67,7 @@
         font-size: 2rem;
         cursor: pointer;
         transition: all 1s;
+        z-index: 10;
     }
     .Navbar-list-mini {
         position: absolute;
